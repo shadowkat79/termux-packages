@@ -2,10 +2,10 @@ TERMUX_PKG_HOMEPAGE=https://github.com/lise-henry
 TERMUX_PKG_DESCRIPTION="Allows you to write a book in Markdown without worrying about formatting or typography"
 TERMUX_PKG_LICENSE="LGPL-2.1"
 TERMUX_PKG_MAINTAINER="@termux"
-TERMUX_PKG_VERSION=0.15.2e
-TERMUX_PKG_REVISION=1
+TERMUX_PKG_VERSION="0.16.1"
 TERMUX_PKG_SRCURL=https://github.com/lise-henry/crowbook/archive/refs/tags/v${TERMUX_PKG_VERSION}.tar.gz
-TERMUX_PKG_SHA256=ac950c051faece985821c28c17206188a6211247a040a8e7afaa34a5f45cf81f
+TERMUX_PKG_SHA256=2e49a10f1b14666d4f740e9a22a588d44b137c3fca0932afc50ded0280450311
+TERMUX_PKG_AUTO_UPDATE=true
 TERMUX_PKG_DEPENDS="openssl-1.1"
 TERMUX_PKG_BUILD_IN_SRC=true
 
